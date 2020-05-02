@@ -78,7 +78,6 @@
 			<div class="row title text-center">
 				<h2 class="margin-top">Fast Les</h2>
 				<h4 class="light muted">We're a dream team!</h4>
-				<h4> Welcome, <?php echo $this->session->userdata('logged_in')['username'];?></h4>
 			</div>
 			<div class="row">
 				<div class="col-md-4">

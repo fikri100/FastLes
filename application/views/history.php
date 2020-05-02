@@ -72,10 +72,11 @@
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
-	</nav><br><br><br><br><br><br>
+	</nav>
+	<section id="home" class="section gray-bg">
+		<div class="container"><br><br><br><br><br><br>
 
-		<div class="container">
-			 <table class="table table-striped table-hover" id="table_id">
+		<table class="table table-striped table-hover" id="table_id">
 		          <thead>
 		            <th>ID</th>
 		            <th>NAMA GURU</th>
@@ -105,8 +106,8 @@
 		          <?php endforeach ?>
 		          </tbody>
         	</table>
-		</div>
-
+		</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</section>
 	<!-- Holder for mobile navigation -->
 	<div class="mobile-nav">
 		<ul>
@@ -122,15 +123,6 @@
 	<script src="<?php echo base_url()?>assets/murid/js/typewriter.js"></script>
 	<script src="<?php echo base_url()?>assets/murid/js/jquery.onepagenav.js"></script>
 	<script src="<?php echo base_url()?>assets/murid/js/main.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
-<script type="text/javascript">
-  $(document).ready( function () {
-      $('#table_id').DataTable();
-  } );
-</script>
 </body>
 
 </html>
